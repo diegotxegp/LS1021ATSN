@@ -21,6 +21,6 @@ $ make
 COMPILING... WAITING FOR HOURS...
 
 $ cd output/images
-# Plug your SD card and check what storage unit is on your computed. According to this, replace "x" in the next command
+# Plug your SD card and check what storage unit is on your computed. According to this, replace <x> in the next command
 $ sudo fdisk -l
 $ sudo dd if=./sdcard.img of=/dev/sd<x>
